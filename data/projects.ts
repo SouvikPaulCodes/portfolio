@@ -59,7 +59,7 @@ export const projects: Project[] = [
     role: 'Lead full-stack developer',
     stack: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Express', 'MongoDB Atlas', 'Socket.io', 'AWS'],
     highlights: [
-      'Real-time chat on Socket.io with delivery receipts, automatic reconnection when the browser comes back online (outgoing messages are queued until the socket is ready), and paginated message history.',
+      'Real-time chat on Socket.io with read receipts, automatic reconnection when the browser comes back online (outgoing messages are queued until the socket is ready), and paginated message history.',
       'Identity verification: document and face checks through Didit and AWS Rekognition (face detection and matching), with verification media moved into S3.',
       'Overhauled onboarding, and shipped scratch-card promotions with expiry and reminder emails.',
       'Admin tooling: dashboard charts, user management, and verification status with history for manual review.',
